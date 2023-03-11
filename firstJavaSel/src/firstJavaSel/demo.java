@@ -38,6 +38,7 @@ public class demo {
 			driver = new ChromeDriver();	
 		}
 		else {
+			
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
